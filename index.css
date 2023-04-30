@@ -4,6 +4,7 @@ body {
     background-position: right top;
     margin-right: 200px;
     background-attachment: fixed;
+    background-color: rgb(189, 194, 199);
   }
   img {
     opacity: 0.4;
