@@ -1,0 +1,59 @@
+body { 
+    background-image: url("img/img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+  }
+  img {
+    opacity: 0.4;
+  }
+  img[title] {
+    background-color: blue;
+    font-size: xx-large;
+    border: solid red;    
+  }
+  p.style::first-line {
+    color: #f50c0c;
+    font-variant: small-caps;
+    word-spacing: 2em;
+    text-align: justify;
+    font-size: larger;
+  }
+  p i:first-child {
+    background-color: rgb(173, 139, 204);
+    font-size: larger;
+    color: aliceblue;
+  }
+  [class$="para"] {
+    background: skyblue;
+    font-size: xx-large;
+} 
+input[disabled] {
+  background: #82ffdc;
+}
+input[placeholder] {
+  font-family: cursive;
+  font-size: x-large;
+}
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+    background-color: rgb(168, 116, 216);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    background-color: aquamarine;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
